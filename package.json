@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/rails/jquery-ujs.git"
   },
+  "author": "Stephen St. Martin",
   "contributors": [
     "Stephen St. Martin",
     "Steve Schwartz"
