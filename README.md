@@ -52,6 +52,17 @@ Choose to overwrite jquery_ujs.js if prompted.*
 
 c. For Rails 2.x and for manual installation follow [this wiki](https://github.com/rails/jquery-ujs/wiki/Manual-installing-and-Rails-2) .
 
+Using as Node package
+---------------------
+
+Have jquery installed and include it with following snippet.
+
+```
+var $ = require('jquery');
+require('jquery-ujs')($);
+```
+
+
 How to run tests
 ------------
 

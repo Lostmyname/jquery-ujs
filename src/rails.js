@@ -1,4 +1,4 @@
-(function($, undefined) {
+function jqueryUjs ($, undefined) {
 
 /**
  * Unobtrusive scripting adapter for jQuery
@@ -442,4 +442,6 @@
     });
   }
 
-})( jQuery );
+};
+
+module.exports = jqueryUjs;
